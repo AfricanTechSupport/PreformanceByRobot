@@ -1,3 +1,4 @@
+basic.showString("Hello! My name is RAM!")
 basic.showIcon(IconNames.Happy)
 for (let index = 0; index < 100; index++) {
     mbit_Robot.Music_Car(mbit_Robot.enMusic.entertainer)
