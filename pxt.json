@@ -1,7 +1,7 @@
 {
     "name": "Robot Preformance",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.1.2",
+    "description": "dancing robot",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -23,5 +23,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
