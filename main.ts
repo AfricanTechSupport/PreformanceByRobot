@@ -24,7 +24,7 @@ function runPreformance () {
     mbit_Robot.RGB_Car_Big2(mbit_Robot.enColor.Pinkish)
     basic.pause(2000)
     mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Stop, 150)
-    mbit_Robot.Music_Car(mbit_Robot.enMusic.power_down)
+    mbit_Robot.Music_Car(mbit_Robot.enMusic.prelude)
     mbit_Robot.RGB_Car_Big2(mbit_Robot.enColor.OFF)
 }
 basic.showLeds(`
